@@ -6,17 +6,24 @@
     
 
     
-    <title>分类：: 数据分析 | 映 像</title>
+    <title>Pagerank 实现文本摘要 | 映 像</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="映 像">
-<meta property="og:url" content="https://jfchl.cn/categories/数据分析/index.html">
+        <meta name="keywords" content="数据分析" />
+    
+    <meta name="description" content="pagerank 实现文本自动摘要一 分句 使用正则将文档按照标点符号或其它符号进行分句，成为列表形式。  二 分词，去掉停用词 使用jieba分词将列表中的每个句子分词，并去掉停用词。这一步，还有词的向量化 可使用sklearn中的CountVectorizer函数一并实现。  词的向量化和tf-idf TFIDF 是个什么鬼    TF-IDF是一种统计方法，用以评估一字词对于一个文件集或一个">
+<meta name="keywords" content="数据分析">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Pagerank 实现文本摘要">
+<meta property="og:url" content="https://jfchl.cn/2019/03/21/pagerank实现文本摘要/index.html">
 <meta property="og:site_name" content="映 像">
+<meta property="og:description" content="pagerank 实现文本自动摘要一 分句 使用正则将文档按照标点符号或其它符号进行分句，成为列表形式。  二 分词，去掉停用词 使用jieba分词将列表中的每个句子分词，并去掉停用词。这一步，还有词的向量化 可使用sklearn中的CountVectorizer函数一并实现。  词的向量化和tf-idf TFIDF 是个什么鬼    TF-IDF是一种统计方法，用以评估一字词对于一个文件集或一个">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-03-21T14:58:02.084Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="映 像">
+<meta name="twitter:title" content="Pagerank 实现文本摘要">
+<meta name="twitter:description" content="pagerank 实现文本自动摘要一 分句 使用正则将文档按照标点符号或其它符号进行分句，成为列表形式。  二 分词，去掉停用词 使用jieba分词将列表中的每个句子分词，并去掉停用词。这一步，还有词的向量化 可使用sklearn中的CountVectorizer函数一并实现。  词的向量化和tf-idf TFIDF 是个什么鬼    TF-IDF是一种统计方法，用以评估一字词对于一个文件集或一个">
     
 
     
@@ -121,262 +128,131 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-folder-open"></i>分类：: <em class="page-title-link">数据分析</em>
+    <a class="page-title-link" href="/categories/数据分析/">数据分析</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-pagerank实现文本摘要" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2019" class="archive-year"><i class="icon fa fa-calendar-o"></i>2019</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2019/03/21/pagerank实现文本摘要/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span><a href="https://jfchl.cn/2019/03/21/pagerank实现文本摘要/#isso-thread"></a></span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/数据分析/">数据分析</a>
-            </div>
-            <div class="date"><time datetime="2019-03-21T14:39:57.000Z" itemprop="datePublished">2019-03-21</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/03/21/pagerank实现文本摘要/">Pagerank 实现文本摘要</a>
+        Pagerank 实现文本摘要
         </h1>
     
 
-        <p class="article-excerpt">
-            pagerank 实现文本自动摘要一 分句
-使用正则将文档按照标点符号或其它符号进行分句，成为列表形式。
-
-二 分词，去掉停用词
-使用jieba分词将列表中的每个句子分词，并去掉停用词。这一步，还有词的向量化 可使用sklearn中的CountVectorizer函数一并实现。
-
-词的向量化和tf-idf
-TFIDF 是个什么鬼
-
-
- TF-IDF是一种统计方法，用以评估一字词对于一个文件集或一个
-        </p>
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2019/03/21/pagerank实现文本摘要/" class="article-date">
+            <time datetime="2019-03-21T14:39:57.000Z" itemprop="datePublished">2019-03-21</time>
+        </a>
     </div>
-</article>
-    
 
-    
-    
-        
-            </div></section>
-        
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2018" class="archive-year"><i class="icon fa fa-calendar-o"></i>2018</a>
+		
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/数据分析/">数据分析</a>
+    </div>
+
             </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
         
-        <a href="/2018/11/02/基于RFM模型的客户分类/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/photos/RFM/RFM.jpg)" alt="K-Means基于RFM模型的客户分类" class="thumbnail-image"></span>
-    
-    
         
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span><a href="https://jfchl.cn/2018/11/02/基于RFM模型的客户分类/#isso-thread"></a></span>
-    
-</span>
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id="pagerank-实现文本自动摘要"><a href="#pagerank-实现文本自动摘要" class="headerlink" title="pagerank 实现文本自动摘要"></a>pagerank 实现文本自动摘要</h2><h3 id="一-分句"><a href="#一-分句" class="headerlink" title="一 分句"></a>一 分句</h3><ul>
+<li>使用正则将文档按照标点符号或其它符号进行分句，成为列表形式。</li>
+</ul>
+<h3 id="二-分词，去掉停用词"><a href="#二-分词，去掉停用词" class="headerlink" title="二 分词，去掉停用词"></a>二 分词，去掉停用词</h3><ul>
+<li>使用jieba分词将列表中的每个句子分词，并去掉停用词。这一步，还有词的<b>向量化</b> 可使用sklearn中的CountVectorizer函数一并实现。</li>
+</ul>
+<h3 id="词的向量化和tf-idf"><a href="#词的向量化和tf-idf" class="headerlink" title="词的向量化和tf-idf"></a>词的向量化和tf-idf</h3><ul>
+<li>TFIDF 是个什么鬼</li>
+</ul>
+<blockquote>
+<p> TF-IDF是一种统计方法，用以评估一字词对于一个文件集或一个语料库中的其中一份文件的重要程度。字词的重要性随着它在文件中出现的次数成正比增加，但同时会随着它在语料库中出现的频率成反比下降。</p>
+</blockquote>
+<blockquote>
+<p> TFIDF的主要思想是：如果某个词或短语在一篇文章中出现的频率TF高，并且在其他文章中很少出现，则认为此词或者短语具有很好的类别区分能力，适合用来分类。TFIDF实际上是：TF * IDF，TF词频(Term Frequency)，IDF逆向文件频率(Inverse Document Frequency)。</p>
+</blockquote>
+<h3 id="pagerank"><a href="#pagerank" class="headerlink" title="pagerank"></a>pagerank</h3><ul>
+<li>这个pagerank 可以由networkx包实现</li>
+</ul>
+<blockquote>
+<p>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名</p>
+</blockquote>
+<blockquote>
+<p>Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p>
+</blockquote>
+<h3 id="实现代码"><a href="#实现代码" class="headerlink" title="实现代码"></a>实现代码</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="comment"># import numpy as np</span></span><br><span class="line"><span class="keyword">import</span> networkx <span class="keyword">as</span> nx</span><br><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line"><span class="keyword">from</span> sklearn.feature_extraction.text <span class="keyword">import</span> TfidfTransformer,CountVectorizer</span><br><span class="line">txt=<span class="string">''</span></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">'./1.txt'</span>,encoding=<span class="string">'utf-8'</span>) <span class="keyword">as</span> f:</span><br><span class="line">    <span class="keyword">for</span> line <span class="keyword">in</span> iter(f):</span><br><span class="line">        txt+=<span class="string">''</span>.join(line)</span><br><span class="line">stop_word=[<span class="string">'的'</span>,<span class="string">'是'</span>,<span class="string">'了'</span>,<span class="string">'我'</span>,<span class="string">'之'</span>,<span class="string">'以'</span>,<span class="string">'，'</span>,<span class="string">'、'</span>,<span class="string">'《'</span>,<span class="string">'》'</span>,<span class="string">'“'</span>,<span class="string">'”'</span>]</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_sentences</span><span class="params">(text)</span>:</span></span><br><span class="line">    <span class="comment">#分句</span></span><br><span class="line">    s=re.split(<span class="string">r'[。,?,!,\n\n ,:]'</span>, text)</span><br><span class="line">    sentences=[w <span class="keyword">for</span> w <span class="keyword">in</span> s <span class="keyword">if</span> w!=<span class="string">''</span> <span class="keyword">and</span> len(w)&gt;<span class="number">0</span> ]</span><br><span class="line">    <span class="keyword">return</span>  sentences</span><br><span class="line"></span><br><span class="line"><span class="comment">#得分topn的句子作为摘要</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">textrank</span><span class="params">(sentences,n)</span>:</span></span><br><span class="line">    sorted_sentences=[]</span><br><span class="line">    </span><br><span class="line">    <span class="comment">#词向量化,使用jieba的cut方法</span></span><br><span class="line">    bow_matrix=CountVectorizer(tokenizer=jieba.cut,stop_words=stop_word).fit_transform(sentences)</span><br><span class="line">    normalized=TfidfTransformer().fit_transform(bow_matrix)</span><br><span class="line"></span><br><span class="line">    sim_graph=normalized*normalized.T</span><br><span class="line">    <span class="comment"># print(sim_graph)</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">#将稀疏矩阵转化化为图（networkx）</span></span><br><span class="line">    nx_graph=nx.from_scipy_sparse_matrix(sim_graph)</span><br><span class="line"></span><br><span class="line">    scores=nx.pagerank(nx_graph)</span><br><span class="line">    <span class="comment"># print(scores)</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">#字典排序</span></span><br><span class="line">    sorted_scores=sorted(scores.items(),key = <span class="keyword">lambda</span> item: item[<span class="number">1</span>], reverse=<span class="keyword">True</span>)</span><br><span class="line">    <span class="comment">#print(sorted_scores)</span></span><br><span class="line">    <span class="keyword">for</span> index,score <span class="keyword">in</span> sorted_scores:</span><br><span class="line">        item=&#123;</span><br><span class="line">            <span class="string">'index'</span>:index,</span><br><span class="line">            <span class="string">'sentence'</span>:sentences[index],</span><br><span class="line">            <span class="string">'weight'</span>:score</span><br><span class="line">        &#125;</span><br><span class="line">        sorted_sentences.append(item)</span><br><span class="line">    <span class="keyword">return</span> sorted_sentences[:n]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">t=get_sentences(txt)</span><br><span class="line"><span class="comment">#print(textrank(t,5))</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> textrank(t,<span class="number">5</span>):</span><br><span class="line">    print(i)</span><br><span class="line">    print(<span class="string">'\n'</span>)</span><br></pre></td></tr></table></figure>
+<font size="3"><br>    {‘index’: 16, ‘sentence’: ‘本研究使用总和生育率、递进生育率（控制了年龄、孩次后的总和生育率）、内在生育率（控制了年龄、孩次、生育间隔后的总和生育率）和队列生育率（一个出生队列的女性，到某一年龄为止的累计生育率或平均生育子女数）这四种生育率指标，来估计和对比分析中国近年来的生育水平与变化趋势’, ‘weight’: 0.020681738055241223}<br><br>    {‘index’: 58, ‘sentence’: ‘总之，类似于二孩递进总和生育率，二孩内在总和生育率的变化进一步表明近年来二孩总和生育率的大幅度上升是生育堆积效应的反映，但其对实际二孩生育水平的估计要高于二孩递进总和生育率’, ‘weight’: 0.018873167326076482}<br><br>    {‘index’: 55, ‘sentence’: ‘通过对比二孩总和生育率、二孩递进总和生育率和二孩内在总和生育率，可以看出因近10年来生育间隔的变化，二孩递进总和生育率对二孩生育水平存在一定程度低估，而二孩总和生育率在2012年前低估二孩生育水平，之后又高估二孩生育水平’, ‘weight’: 0.018784835700268225}<br><br>    {‘index’: 72, ‘sentence’: ‘综上，近年来一孩总和生育率的大幅度下降并不表明一孩生育水平的真实的有如此明显下降，而主要是反映了妇女婚育年龄推迟的进度效应，一孩总和生育率降到了0.6左右，而一孩内在总和生育率仍然高达0.9以上’, ‘weight’: 0.018205850700340118}<br><br>    {‘index’: 33, ‘sentence’: ‘在2016和2017年一孩生育水平较低的情况下总和生育率仍有较大幅度回升，原因就在于二孩总和生育率提高产生的对总和生育率的提升效应，这也表明了全面两孩政策效应非常显著’, ‘weight’: 0.018115375202097012}<br>    </font>
 
 
-    
-</a>
 
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/数据分析/">数据分析</a>
-            </div>
-            <div class="date"><time datetime="2018-11-02T01:39:57.000Z" itemprop="datePublished">2018-11-02</time></div>
+
+<p>摘要原文档地址:  <a href="https://pit.ifeng.com/c/7lDbdcv3qc4" target="_blank" rel="noopener">中国家庭︱中国近10年的生育水平与趋势</a></p>
+
         </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2018/11/02/基于RFM模型的客户分类/">K-Means基于RFM模型的客户分类</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
+        <footer class="article-footer">
             
 
-看到过基于LRFMC模型的航空客户分类，试试对我司的客户进行分类。 如何通过RFM模型，为用户分群，实现精细化运营 RFM模型是一个被广泛使用的客户关系分析模型，主要以用户行为来区分客户，RFM分别是：
-　　
+    <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more">分享到：</a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a>
+    <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网">人人网</a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a>
+</div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?='+~(-new Date()/36e5)];
+</script>
+<style>
+    .bdshare_popup_box {
+        border-radius: 4px;
+        border: #e1e1e1 solid 1px;
+    }
+    .bdshare-button-style0-16 a,
+    .bdshare-button-style0-16 .bds_more {
+        padding-left: 20px;
+        margin: 6px 10px 6px 0;
+    }
+    .bdshare_dialog_list a,
+    .bdshare_popup_list a,
+    .bdshare_popup_bottom a {
+        font-family: 'Microsoft Yahei';
+    }
+    .bdshare_popup_top {
+        display: none;
+    }
+    .bdshare_popup_bottom {
+        height: auto;
+        padding: 5px;
+    }
+</style>
 
-R = Recency 最近一次消费
-　　
-F = Frequency 消费频率
-M = Monetary 消费金额 
-第一步：先挑出来近1个月的复购用户。
-第二步：近1个月内复购用户
-        </p>
+
+
+        </footer>
     </div>
 </article>
-    
 
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2018/09/19/PEST 分析模型/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/photos/pest/bj.jpg)" alt="PEST分析方法（一）" class="thumbnail-image"></span>
-    
+    <section id="comments">
     
         
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span><a href="https://jfchl.cn/2018/09/19/PEST 分析模型/#isso-thread"></a></span>
-    
-</span>
+    <div id="SOHUCS" sid="https://jfchl.cn/2019/03/21/pagerank实现文本摘要/"></div>
 
 
     
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/数据分析/">数据分析</a>
-            </div>
-            <div class="date"><time datetime="2018-09-18T16:00:00.000Z" itemprop="datePublished">2018-09-19</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2018/09/19/PEST 分析模型/">PEST分析方法（一）</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-PEST 分析模型   从事同城配送行业，感觉现在是王小二过年，心理慌啊，我还欠老马不少银子啊   看看这线条，跌宕起伏，犹如过山车叫人心惊肉跳。
-耳闻PEST是卜卦大湿，据传卜过的人都说好。
-一日登门请教！
-我：“大湿啊，你看看我这，未来可好？”大湿低头端详片刻，悠悠道：“你这是季节性情感障碍综合征。”我：“情感障碍？”大湿：“对，你看啊，节假日，特别是大的传统节日，你心情好点，而且越来越差，
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-    
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2018/09/10/JupyterToMarkdownTest/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/photos/JupyterToMarkdownTest/output_14_0.png)" alt="JupyterToMarkdownTest" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span><a href="https://jfchl.cn/2018/09/10/JupyterToMarkdownTest/#isso-thread"></a></span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/数据分析/">数据分析</a>
-            </div>
-            <div class="date"><time datetime="2018-09-09T22:20:51.000Z" itemprop="datePublished">2018-09-10</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2018/09/10/JupyterToMarkdownTest/">JupyterToMarkdownTest</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-
-这是以前用jupyter，今日转换成md放到这里作为一个测试  销售描述统计与 matplotlib
-
-
-pandas 数据重采样
-pandas 数据透视表
-matplotlib 中文及符号显示
-基本画图
-以一月份份的销售为例：
-
-
-123456import osimport pandas as pdimport matplotlib.pyplot as pltname=['单号','销售日期
-        </p>
-    </div>
-</article>
-    
-
-
-    </div></section>
-
+    </section>
 
 
 
@@ -438,6 +314,19 @@ matplotlib 中文及符号显示
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2018/11/02/基于RFM模型的客户分类/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">K-Means基于RFM模型的客户分类</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
